@@ -1,11 +1,15 @@
 {
   "name": "mailchimp-api-3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mailchimp api wrapper for v3 of the mailchimp api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" :
+    { "type" : "git",
+       "url" : "https://github.com/art2cool/mailchimp-api-3"
+    },
   "author": "Volodymyr Paskiv",
   "license": "ISC",
   "dependencies": {
