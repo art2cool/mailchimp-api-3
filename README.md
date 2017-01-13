@@ -8,7 +8,7 @@ npm i mailchimp-api-3
 ## use
 ```javascript
 let Mailchimp = require('mailchimp-api-3');
-let mailchimp = new Mailchimp('18fe4925038d265a19f1f3da80245adc-us13');
+let mailchimp = new Mailchimp(<api-key>);
 ```
 
 ## Members
@@ -32,7 +32,7 @@ mailchimp.members.create(<list_id>, {
 ```
 #### GET
 ```javascript
-//get current user by email
+//get user by email
 mailchimp.members.get(<list_id>, <user_email>)
   .then( user => {
     // result user
@@ -72,7 +72,7 @@ mailchimp.members.update(<list_id>, <user_email>, body)
 
 #### GET
 ```javascript
-//get current list by list_id
+//get list by list_id
 mailchimp.members.get(<list_id>, <user_email>)
   .then( user => {
     // result user
@@ -89,11 +89,4 @@ mailchimp.members.getAll(<list_id>)
   .catch( e => {
     // result e
   })
-```
-
-### run
-
-start prerender-node server for first-tab:
-```javascript
-$ npm start
 ```
