@@ -1,6 +1,6 @@
 {
   "name": "mailchimp-api-3",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Mailchimp api wrapper for v3 of the mailchimp api",
   "main": "index.js",
   "scripts": {
